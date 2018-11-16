@@ -1,0 +1,17 @@
+ul.Rating {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+}
+    ul.Rating li {
+        display: inline-block;
+        margin: 0 0.2em;
+        padding: 1em;
+        border: 1px solid #222;
+        background-color: #ddd;
+        cursor: pointer;
+    }
+    ul.Rating li.highlighted {
+        background-color: lightgreen;
+    }
