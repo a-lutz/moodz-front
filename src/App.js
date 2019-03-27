@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Rating from './components/common/Rating';
-import logo from './logo.svg';
+import logo from './moodz.png';
 import './App.css';
 
 class App extends Component {
@@ -13,8 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="" />
-          <h1 className="App-title">We manage people</h1>
+          <h1 className="App-title"><img src={logo} className="App-logo" alt="Moodz" height="30" /></h1>
         </header>
         <p className="App-intro">
           Welcome to Moodz

@@ -6,12 +6,16 @@ ul.Rating {
 }
     ul.Rating li {
         display: inline-block;
-        margin: 0 0.2em;
-        padding: 1em;
-        border: 1px solid #222;
+        width: 2em;
+        height: 2em;
+        margin: 0.5em;
+        padding-top: 0.6em;
+        border: 2px solid #222;
         background-color: #ddd;
+        border-radius: 1em;
         cursor: pointer;
+        vertical-align: middle;
     }
     ul.Rating li.highlighted {
-        background-color: lightgreen;
+        background-color: #9ab;
     }
